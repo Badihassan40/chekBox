@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script rel="" src="main.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Qualification</h1>
+    <h2>Choose Carefully</h2>
+    <div class="check" id="CheckB">
+        <div class="checkbox-container">
+            <label class="checkbox-label">MCA
+                <input type="checkbox" onclick="checkbox1()">
+                <span class="mark"></span>
+            </label>
+        </div>
+        <div class="checkbox-container">
+            <label class="checkbox-label">BCA
+                <input type="checkbox"
+                    onclick="document.getElementById('CheckB').style.backgroundColor = 'darkslategray'">
+                <span class="mark"></span>
+            </label>
+        </div>
+        <div class="checkbox-container">
+            <label class="checkbox-label">12th
+                <input type="checkbox" onclick="document.getElementById('CheckB').style.backgroundColor = 'green'">
+                <span class="mark"></span>
+            </label>
+        </div>
+        <div class="checkbox-container">
+            <label class="checkbox-label">10th
+                <input type="checkbox" onclick="checkbox2()">
+                <span class="mark"></span>
+            </label>
+        </div>
+        <div class="thanks" id="Thanks" style="display: none;">Thank You</div>
+    </div>
+
+</body>
+
+</html>
